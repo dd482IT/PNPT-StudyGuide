@@ -13,15 +13,11 @@ Domain objects and relations between them with BloodHound, with MS-RPC named pip
 
 Collect Information that support potential attacks below. You are not attempting to discover new attacks (the role of a research) but rather exploitating vulnerabilities that are known.
 https://medium.com/@RootRouteway/hacking-active-directory-from-reconnaissance-to-exploitation-part-1-0ec218c4d533
-
-1. NMAP Scan
-
-
-Reconnaissance	Resource Development	Initial Access	Execution	Persistence	Privilege Escalation	Defense Evasion	Credential Access	Discovery	Lateral Movement	Collection	Command and Control	Exfiltration	Impact
-10 techniques	8 techniques	10 techniques	14 techniques	20 techniques	14 techniques	43 techniques	17 techniques	32 techniques	9 techniques	17 techniques	18 techniques	9 techniques	14 techniques
-
+-------------------------------
 Active Scanning (3)
 Note: In a real pentest this is rather noisy and if used, should be configured to be as quiet as possible. 
+
+Gain administrative data (ex: name, assigned IP, functionality, etc.) as well as specifics regarding its configuration (ex: operating system, language, etc.).
 
 1. T1595.001	Scanning IP Blocks
 2. T1595.002	Vulnerability Scanning - Consider the link below to see what information may be used. 
@@ -31,13 +27,31 @@ https://attack.mitre.org/techniques/T1595/003/
 
 Gather Victim Host Information (4)
 
-1. administrative data (ex: name, assigned IP, functionality, etc.) as well as specifics regarding its configuration (ex: operating system, language, etc.).
+T1592.001	Hardware
+T1592.002	Software
+T1592.003	Firmware
+T1592.004	Client Configurations
 
 Gather Victim Identity Information (3)
+ID	Name
+T1589.001	Credentials
+T1589.002	Email Addresses
+T1589.003	Employee Names
 
 Gather Victim Network Information (6)
+T1590.001	Domain Properties
+T1590.002	DNS
+T1590.003	Network Trust Dependencies
+T1590.004	Network Topology
+T1590.005	IP Addresses
+T1590.006	Network Security Appliances
 
 Gather Victim Org Information (4)
+T1591.001	Determine Physical Locations
+T1591.002	Business Relationships
+T1591.003	Identify Business Tempo
+T1591.004	Identify Roles
+
 Phishing for Information (4)
 
 Search Closed Sources (2)
