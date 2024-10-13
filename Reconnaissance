@@ -19,8 +19,16 @@ https://medium.com/@RootRouteway/hacking-active-directory-from-reconnaissance-to
 
 Reconnaissance	Resource Development	Initial Access	Execution	Persistence	Privilege Escalation	Defense Evasion	Credential Access	Discovery	Lateral Movement	Collection	Command and Control	Exfiltration	Impact
 10 techniques	8 techniques	10 techniques	14 techniques	20 techniques	14 techniques	43 techniques	17 techniques	32 techniques	9 techniques	17 techniques	18 techniques	9 techniques	14 techniques
+
 Active Scanning (3)
-=
+Note: In a real pentest this is rather noisy and if used, should be configured to be as quiet as possible. 
+
+1. T1595.001	Scanning IP Blocks
+2. T1595.002	Vulnerability Scanning - Consider the link below to see what information may be used. 
+https://attack.mitre.org/techniques/T1595/002/
+3. T1595.003	Wordlist Scanning - Wordlists used in these scans may contain generic, commonly used names and file extensions or terms specific to a particular software. Adversaries may also create custom, target-specific wordlists using data gathered from other Reconnaissance techniques (ex: Gather Victim Org Information, or Search Victim-Owned Websites).
+https://attack.mitre.org/techniques/T1595/003/
+
 Gather Victim Host Information (4)
 
 1. administrative data (ex: name, assigned IP, functionality, etc.) as well as specifics regarding its configuration (ex: operating system, language, etc.).
