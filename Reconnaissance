@@ -15,3 +15,27 @@ Collect Information that support potential attacks below. You are not attempting
 https://medium.com/@RootRouteway/hacking-active-directory-from-reconnaissance-to-exploitation-part-1-0ec218c4d533
 
 1. NMAP Scan
+
+
+Reconnaissance	Resource Development	Initial Access	Execution	Persistence	Privilege Escalation	Defense Evasion	Credential Access	Discovery	Lateral Movement	Collection	Command and Control	Exfiltration	Impact
+10 techniques	8 techniques	10 techniques	14 techniques	20 techniques	14 techniques	43 techniques	17 techniques	32 techniques	9 techniques	17 techniques	18 techniques	9 techniques	14 techniques
+Active Scanning (3)
+=
+Gather Victim Host Information (4)
+
+1. administrative data (ex: name, assigned IP, functionality, etc.) as well as specifics regarding its configuration (ex: operating system, language, etc.).
+
+Gather Victim Identity Information (3)
+
+Gather Victim Network Information (6)
+
+Gather Victim Org Information (4)
+Phishing for Information (4)
+
+Search Closed Sources (2)
+
+Search Open Technical Databases (5)
+
+Search Open Websites/Domains (3)
+
+Search Victim-Owned Websites
