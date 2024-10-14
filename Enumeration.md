@@ -9,6 +9,7 @@ Commands
 ``wmic qfe get Caption,Description`` - check installed updates 
 ``whoami /priv`` - know what you are capable of, i.e., your privileges, you can use
 Network Enumeration
+`whoami /groups` - know what groups you are apart of
 
 TCP and UDP open ports
 ```PS C:\Users\thm> netstat -na```
