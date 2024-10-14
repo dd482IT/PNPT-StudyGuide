@@ -8,6 +8,7 @@ Commands
 ``systeminfo`` 
 ``wmic qfe get Caption,Description`` - check installed updates 
 ``whoami /priv`` - know what you are capable of, i.e., your privileges, you can use
+`net user` - can view users
 Network Enumeration
 `whoami /groups` - know what groups you are apart of
 
