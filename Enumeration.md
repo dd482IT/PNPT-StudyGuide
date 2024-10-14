@@ -11,6 +11,11 @@ Commands
 `net user` - can view users
 Network Enumeration
 `whoami /groups` - know what groups you are apart of
+`net group` (Windows Domain Controler) 
+`net localgroup` (Nont Windows Domain Controler) 
+`net localgroup administrators`
+
+Use `net accounts` to see the local settings on a machine; moreover, you can use net accounts /domain if the machine belongs to a domain. This command helps learn about password policy, such as minimum password length, maximum password age, and lockout duration.
 
 TCP and UDP open ports
 ```PS C:\Users\thm> netstat -na```
