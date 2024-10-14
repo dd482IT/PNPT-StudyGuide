@@ -2,7 +2,7 @@ Enumartion is similar to reconassiance but on the inside. You are scanning or ma
 
 Tools.
 1. WinPeas (Can be detected by Windows Defender) 
-
+2.https://tryhackme.com/r/room/enumerationpe
 
 Commands 
 ``systeminfo`` 
@@ -39,6 +39,13 @@ Installed Applications
 Services and Process
 MITRE: https://attack.mitre.org/techniques/T1057/
 https://tryhackme.com/room/btwindowsinternals
+
+
+
+SMB
+``net share`` 
+SNMP
+
 
 `net start` - shows running services 
 `Get-Process -Name <insert name here, remove brackets>` - get additional information on a process 
