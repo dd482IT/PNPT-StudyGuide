@@ -2,8 +2,12 @@ Enumartion is similar to reconassiance but on the inside. You are scanning or ma
 
 Tools.
 1. WinPeas (Can be detected by Windows Defender) 
-2. 
 
+
+Commands 
+``systeminfo`` 
+``wmic qfe get Caption,Description`` - check installed updates 
+``whoami /priv`` - know what you are capable of, i.e., your privileges, you can use
 Network Enumeration
 
 TCP and UDP open ports
@@ -19,9 +23,10 @@ We can also use the LDAP hierarchical tree structure to find a user within the A
 ``Get-ADUser -Filter * -SearchBase "CN=Users,DC=THMREDTEAM,DC=COM"``
 
 Installed Applications
-``PS C:\Users\thm> wmic product get name,version`` - list all installed applications and their version.
+``PS C:\Users\thm> wmic product get name,version, vendor`` - list all installed applications and their version.
 
 ``Get-ChildItem -Hidden -Path C:\Users\kkidd\Desktop\`` - Another interesting thing is to look for particular text strings, hidden directories, backup files. Then we can use the PowerShell cmdlets, Get-ChildItem, as follow:
+
 
 
 Services and Process
