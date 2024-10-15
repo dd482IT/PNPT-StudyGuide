@@ -19,21 +19,23 @@ Network Enumeration
 Use `net accounts` to see the local settings on a machine; moreover, you can use net accounts /domain if the machine belongs to a domain. This command helps learn about password policy, such as minimum password length, maximum password age, and lockout duration.
 
 TCP and UDP open ports
-```PS C:\Users\thm> netstat -na```
+-```PS C:\Users\thm> netstat -na```
 
 Established Connections
-```PS C:\Users\thm> arp -a```
+-```PS C:\Users\thm> arp -a```
 
 Active Directory Enumeration
-```Get-ADUser  -Filter *``` -  get all active directory user accounts
+
+- ```Get-ADUser  -Filter *``` -  get all active directory user accounts
 We can also use the LDAP hierarchical tree structure to find a user within the AD environment
 
-``Get-ADUser -Filter * -SearchBase "CN=Users,DC=THMREDTEAM,DC=COM"``
+- ``Get-ADUser -Filter * -SearchBase "CN=Users,DC=THMREDTEAM,DC=COM"``
 
 Installed Applications
-``PS C:\Users\thm> wmic product get name,version, vendor`` - list all installed applications and their version.
 
-``Get-ChildItem -Hidden -Path C:\Users\kkidd\Desktop\`` - Another interesting thing is to look for particular text strings, hidden directories, backup files. Then we can use the PowerShell cmdlets, Get-ChildItem, as follow:
+- ``PS C:\Users\thm> wmic product get name,version, vendor`` - list all installed applications and their version.
+
+- ``Get-ChildItem -Hidden -Path C:\Users\kkidd\Desktop\`` - Another interesting thing is to look for particular text strings, hidden directories, backup files. Then we can use the PowerShell cmdlets, Get-ChildItem, as follow:
 
 
 
