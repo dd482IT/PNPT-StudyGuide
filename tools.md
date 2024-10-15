@@ -1,46 +1,46 @@
-PowerView/SharpView	
-BloodHound (and bloudbound.py)
-SharpHound 
-Kerbrute
-Impacket toolkit 
-Responder 
-Inveigh.ps1 
-C# Inveigh (InveighZero) 
-rpcinfo 
-rpcclient 
-CrackmapExec (CME) 
-Rubeus 
-GetUsersSPNs.py 
-Hashcat 
-enum4linux
-ldapsearch 
-windaspearch 
-DomainPasswordSpray.ps1
-LAPSToolkit 
-smbmap
-psexec.py 
-wmiexec.py 
-Snaffler 
-smbserver.py 
-setspn.exe 
-Mimikatz 
-secretsdump.py 
-evil-winrm 
-mssqlclient.py 
-noPac.py 
-rpcdump.py
-CVE-2021-1675.py 
-ntlmrelayx.py
-PetitPotam.py 
-gettgtpkinit.py
-getnthash.py
-adidnsdump
-gpp-decrypt
-GetNPusers.py 
-lookupsid.py 
-ticketer.py
-raiseChild.py
-Active Directory Explorer 
-PingCastle 
-Group3r 
-ADRecon 
+1. PowerView/SharpView
+2. BloodHound (and bloudbound.py)
+3. SharpHound
+4. Kerbrute
+5. Impacket toolkit
+6. Responder
+7. Inveigh.ps1
+8. C# Inveigh (InveighZero)
+9. rpcinfo
+10. rpcclient
+11. CrackmapExec (CME)
+12. Rubeus
+13. GetUsersSPNs.py
+14. Hashcat
+15. enum4linux
+16. ldapsearch
+17. windaspearch
+18. DomainPasswordSpray.ps1
+19. LAPSToolkit
+20. smbmap
+21. psexec.py
+22. wmiexec.py
+23. Snaffler
+24. smbserver.py
+25. setspn.exe
+26. Mimikatz
+27. secretsdump.py
+28. evil-winrm
+29. mssqlclient.py
+30. noPac.py
+31. rpcdump.py
+32. CVE-2021-1675.py
+33. ntlmrelayx.py
+34. PetitPotam.py
+35. gettgtpkinit.py
+36. getnthash.py
+37. adidnsdump
+38. gpp-decrypt
+39. GetNPusers.py
+40. lookupsid.py
+41. ticketer.py
+42. raiseChild.py
+43. Active Directory Explorer
+44. PingCastle
+45. Group3r
+46. ADRecon
