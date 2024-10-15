@@ -1,5 +1,10 @@
 Enumartion is similar to reconassiance but on the inside. You are scanning or manually searching the system for attack vectors that could continue the attack.
 
+In order to escalate your privileges which will come from enumerating the system, you may need to attempt an attack such as the below to gain credentials or access.
+
+1. Kerberoasting attack (TryHack me Has a room on this) 
+2. Pass-the-ticket attack
+
 Tools.
 1. WinPeas (Can be detected by Windows Defender) 
 2.https://tryhackme.com/r/room/enumerationpe
