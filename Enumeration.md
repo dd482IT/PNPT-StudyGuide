@@ -10,6 +10,8 @@ In order to escalate your privileges which will come from enumerating the system
 6. Pass the Ticket
 7. Skeleton key attacks using mimikatz
 
+NTLM also has a number of attack vectors
+
 Commands 
 ``systeminfo`` 
 ``wmic qfe get Caption,Description`` - check installed updates 
