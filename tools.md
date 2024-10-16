@@ -24,7 +24,7 @@
 
 11. CrackmapExec (CME)
 
-12. Rubeus
+12. Rubeus - https://github.com/GhostPack/Rubeus
 
 13. GetUsersSPNs.py
 
