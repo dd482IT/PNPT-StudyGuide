@@ -6,7 +6,9 @@
 
 3. SharpHound
 
-4. Kerbrute
+4. Kerbrute - https://github.com/ropnop/kerbrute
+    - Can get usernames
+
 
 5. Impacket toolkit
 
@@ -23,7 +25,6 @@
 11. CrackmapExec (CME)
 
 12. Rubeus
-
 
 13. GetUsersSPNs.py
 
