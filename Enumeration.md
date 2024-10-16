@@ -4,6 +4,11 @@ In order to escalate your privileges which will come from enumerating the system
 
 1. Kerberoasting attack (TryHack me Has a room on this) 
 2. Pass-the-ticket attack
+3. Initial enumeration using tools like Kerbrute and Rubeus
+4. AS-REP Roasting with Rubeus and Impacket
+5. Golden/Silver Ticket Attacks
+6. Pass the Ticket
+7. Skeleton key attacks using mimikatz
 
 Commands 
 ``systeminfo`` 
