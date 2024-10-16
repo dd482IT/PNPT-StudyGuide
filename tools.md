@@ -26,70 +26,72 @@
 
 12. Rubeus - https://github.com/GhostPack/Rubeus
 
-13. GetUsersSPNs.py
+Rubeus has a wide variety of attacks and features that allow it to be a very versatile tool for attacking Kerberos. Just some of the many tools and attacks include overpass the hash, ticket requests and renewals, ticket management, ticket extraction, harvesting, pass the ticket, AS-REP Roasting, and Kerberoasting.
 
-14. Hashcat
+14. GetUsersSPNs.py
 
-15. enum4linux
+15. Hashcat
 
-16. ldapsearch
+16. enum4linux
 
-17. windaspearch
+17. ldapsearch
 
-18. DomainPasswordSpray.ps1
+18. windaspearch
 
-19. LAPSToolkit
+19. DomainPasswordSpray.ps1
 
-20. smbmap
+20. LAPSToolkit
 
-21. psexec.py
+21. smbmap
 
-22. wmiexec.py
+22. psexec.py
 
-23. Snaffler
+23. wmiexec.py
 
-24. smbserver.py
+24. Snaffler
 
-25. setspn.exe
+25. smbserver.py
 
-26. Mimikatz
+26. setspn.exe
 
-27. secretsdump.py
+27. Mimikatz
 
-28. evil-winrm
+28. secretsdump.py
 
-29. mssqlclient.py
+29. evil-winrm
 
-30. noPac.py
+30. mssqlclient.py
 
-31. rpcdump.py
+31. noPac.py
 
-32. CVE-2021-1675.py
+32. rpcdump.py
 
-33. ntlmrelayx.py
+33. CVE-2021-1675.py
 
-34. PetitPotam.py
+34. ntlmrelayx.py
 
-35. gettgtpkinit.py
+35. PetitPotam.py
 
-36. getnthash.py
+36. gettgtpkinit.py
 
-37. adidnsdump
+37. getnthash.py
 
-38. gpp-decrypt
+38. adidnsdump
 
-39. GetNPusers.py
+39. gpp-decrypt
 
-40. lookupsid.py
+40. GetNPusers.py
 
-41. ticketer.py
+41. lookupsid.py
 
-42. raiseChild.py
+42. ticketer.py
 
-43. Active Directory Explorer
+43. raiseChild.py
 
-44. PingCastle
+44. Active Directory Explorer
 
-45. Group3r
+45. PingCastle
 
-46. ADRecon
+46. Group3r
+
+47. ADRecon
