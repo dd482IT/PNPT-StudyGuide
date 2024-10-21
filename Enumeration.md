@@ -3,12 +3,31 @@ Enumartion is similar to reconassiance but on the inside. You are scanning or ma
 In order to escalate your privileges which will come from enumerating the system, you may need to attempt an attack such as the below to gain credentials or access.
 
 1. Kerberoasting attack (TryHack me Has a room on this)
-3. Pass-the-ticket attack
-4. Initial enumeration using tools like Kerbrute and Rubeus
-5. AS-REP Roasting with Rubeus and Impacket
-6. Golden/Silver Ticket Attacks
-7. Pass the Ticket
-8. Skeleton key attacks using mimikatz
+   Kerberoasting allows a user to request a service ticket for any service with a registered SPN then use that ticket to crack the service password. If the service has a registered SPN then it can be Kerberoastable however the success of the attack depends on how strong the password is and if it is trackable as well as the privileges of the cracked service account. To enumerate Kerberoastable accounts I would suggest a tool like BloodHound to find all Kerberoastable accounts, it will allow you to see what kind of accounts you can kerberoast if they are domain admins, and what kind of connections they have to the rest of the domain
+
+   Method 1: Rubeus (local only). Once you get a hash for a target account, you can crack it using hashcat and a password list.
+   Method 2: Impacket (remote): Once you get a hash for a target account, it can be cracked.
+
+   Once you gain access a some sort of admin, you may have access to the NTDS.dit file if you'd want to pivot to a different account. 
+
+3. 
+4. Pass-the-ticket attack
+
+   On the target system, the LSASS stores Kerberos tickets. Mimikatz can export all tickets on the system. You can then impersonate as the account with that ticket.
+      `mimikatz.exe`
+      `privilege::debug`
+      `sekurlsa::tickets /export`
+      `kerberos::ptt <ticket>`
+   
+6. Initial enumeration using tools like Kerbrute and Rubeus
+7. AS-REP Roasting with Rubeus and Impacket
+
+This exploits users that have Kerberos pre-authentication disabled. Using 'Rubeus.exe asreproast', command looking for vulnerable users and then dump found vulnerable user hashes. Then crack the passwords with hashcat. 
+
+
+7. Golden/Silver Ticket Attacks
+8. Pass the Ticket
+9. Skeleton key attacks using mimikatz
 
 
 Enumerate AD: 
@@ -16,7 +35,7 @@ Enumerate AD:
 2. Rubeus.exe: Collect tickets that can be used with pass the ticket attack.
    You can also brute force with a given password, no ticket. If the provided password matches, it will tell you the user but a lockout policy could prevent the attack. `Rubeus.exe brute /password:Password1 /noticket`
 
-
+Enumerating Shares:
 
 
 Commands 
