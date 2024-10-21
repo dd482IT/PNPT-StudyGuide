@@ -2,15 +2,22 @@ Enumartion is similar to reconassiance but on the inside. You are scanning or ma
 
 In order to escalate your privileges which will come from enumerating the system, you may need to attempt an attack such as the below to gain credentials or access.
 
-1. Kerberoasting attack (TryHack me Has a room on this) 
-2. Pass-the-ticket attack
-3. Initial enumeration using tools like Kerbrute and Rubeus
-4. AS-REP Roasting with Rubeus and Impacket
-5. Golden/Silver Ticket Attacks
-6. Pass the Ticket
-7. Skeleton key attacks using mimikatz
+1. Kerberoasting attack (TryHack me Has a room on this)
+3. Pass-the-ticket attack
+4. Initial enumeration using tools like Kerbrute and Rubeus
+5. AS-REP Roasting with Rubeus and Impacket
+6. Golden/Silver Ticket Attacks
+7. Pass the Ticket
+8. Skeleton key attacks using mimikatz
 
-NTLM also has a number of attack vectors
+
+Enumerate AD: 
+1. Kerbrute: DNS may be required. `./kerbrute userenum --dc CONTROLLER.local -d CONTROLLER.local User.txt`. This will list users and services
+2. Rubeus.exe: Collect tickets that can be used with pass the ticket attack.
+   You can also brute force with a given password, no ticket. If the provided password matches, it will tell you the user but a lockout policy could prevent the attack. `Rubeus.exe brute /password:Password1 /noticket`
+
+
+
 
 Commands 
 ``systeminfo`` 
@@ -72,7 +79,6 @@ Internal services: DNS, local web applications, etc
 3.Network File Share
 4.Web application
 5.Database service
-
 
 
 
