@@ -26,3 +26,9 @@ Download Additional cmdlets: `Find-Module` + `Install-Module -Name <name>`
 -le: "less than or equal to". Just like its counterpart -ge, this is the non-strict version of the previous operator. A combination of -lt and -eq.
 
 `Get-ChildItem | Where-Object -Property "Name" -like "ship*"`  
+`Get-ChildItem | Select-Object Name,Length `
+
+GREP Equivalent: `Select-String -Path ".\captain-hat.txt" -Pattern "hat"`
+
+
+Filter directory by size: `Get-ChildItem | Where-Object -Property Length -gt 100`
