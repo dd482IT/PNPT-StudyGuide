@@ -6,3 +6,8 @@ Files: `dir /a` (hidden files), `dir /s`, `tree`, `mkdir`, `rmdir`, `more` (can 
 `copy`, `move`, `del` or `erase`.
 Processes: `tasklist`, check for filters using `tasklist /f`, `tasklist /FI "imagename eq sshd.exe`, `taskill /PID <number>`.
 
+Powershell 
+
+List Available cmdlets: `Get-Command`, there are different types of commands and they can be filtered like so `Get-Command -CommandType "Function"` 
+Man Page: `Get-Help <commandlet>`
+
