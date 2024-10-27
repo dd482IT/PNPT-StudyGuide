@@ -32,3 +32,18 @@ GREP Equivalent: `Select-String -Path ".\captain-hat.txt" -Pattern "hat"`
 
 
 Filter directory by size: `Get-ChildItem | Where-Object -Property Length -gt 100`
+
+*System and Network Information*
+`Get-ComputerInfo` gives more information than systeminfo.
+`Get-LocalUser` - lists all local user accounts
+`Get-NetIPConfiguration` - similar to ipconfig
+`Get-NetIPAddress` - cmdlet will show details for all IP Addresses
+
+
+*Real-Time System Analysis*
+`Get-Process`
+`Get-Service` 
+`Get-NetTCPConnection` 
+`Get-FileHash`
+
+Invoke-Command enables efficient remote management and—combining it with scripting—automation of tasks across multiple machines. It can also be used to execute payloads or commands on target systems during an engagement by penetration testers—or attackers alike.
