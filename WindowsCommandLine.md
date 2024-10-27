@@ -14,3 +14,7 @@ Aliases: `Get-Alias` shows all aliases, for example, `cd` is an alis for `Set-Lo
 Download Additional cmdlets: `Find-Module` + `Install-Module -Name <name>` 
 
 
+*Piping, Filtering and Snorting Data*
+
+`Get-ChildItem | Sort-Object Length`
+`Get-ChildItem | Where-Object -Property "Extension" -eq ".txt" `
