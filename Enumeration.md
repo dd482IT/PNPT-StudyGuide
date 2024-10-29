@@ -1,5 +1,20 @@
 Enumartion is similar to reconassiance but on the inside. You are scanning or manually searching the system for attack vectors that could continue the attack.
 
+
+*Basics*
+
+1. Start with passive scans, use DNS, listen to network traffic if applicable.
+2. Active Scan: try to collect IP Addresses, domains, mac addresses etc. Don't forget the difference between broadcast domain and collision domain. 
+
+
+
+
+
+
+
+*Windows Specific*
+
+
 In order to escalate your privileges which will come from enumerating the system, you may need to attempt an attack such as the below to gain credentials or access.
 
 1. Kerberoasting attack (TryHack me Has a room on this)
