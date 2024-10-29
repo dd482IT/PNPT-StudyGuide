@@ -12,7 +12,7 @@
 
 5. Impacket toolkit
 
-6. Responder
+6. Responder is a tool built to listen, analyze, and poison LLMNR, NBT-NS, and MDNS requests and responses. It has many more functions, but for now, all we are utilizing is the tool in its Analyze mode. This will passively listen to the network and not send any poisoned packets. We'll cover this tool more in-depth in later sections.
 
 7. Inveigh.ps1
 
