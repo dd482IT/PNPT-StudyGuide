@@ -1,5 +1,7 @@
 Pentration Test Phases
 
+Penetration Test Goal: Gain SYSTEM-level access within a domain environment is nearly equivalent to having a domain user account. 
+
 1. Reconnaissance	
 What information can be collected about the target. What possible pathways and attack vectors are present. What vulnerabilities might be present? What users are present? Use this area to develop your approach for the next phase. 
 2. Initial Access
