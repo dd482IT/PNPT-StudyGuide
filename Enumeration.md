@@ -51,6 +51,7 @@ Enumerate AD:
    You can also brute force with a given password, no ticket. If the provided password matches, it will tell you the user but a lockout policy could prevent the attack. `Rubeus.exe brute /password:Password1 /noticket`
 
 Enumerating Shares:
+LLMNR/NBT-NS Poisoning - from Linux
 
 
 Commands 
